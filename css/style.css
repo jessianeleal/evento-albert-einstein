@@ -97,7 +97,7 @@ h3 {
 
 .header-bottom__ae {
     background-image: url("../assets/fundo-red.jpg");
-    height: 130px;
+    height: auto;
     margin-top: -130px;
     color: #ffffff !important;
     font-weight: bold;
@@ -200,7 +200,7 @@ h3 {
 @media (max-width: 425px) 
 {
     .none__ae {
-        display: none;
+        display: none !important;
     }
 
     .none2__ae {
