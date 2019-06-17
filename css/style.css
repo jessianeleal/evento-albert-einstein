@@ -197,6 +197,16 @@ h3 {
     color: #ffffff !important;
 }
 
+.anima {
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    
+}
+
+.anima2, .anima3, .anima4 {
+    opacity: 0;
+}
+
 @media (max-width: 425px) 
 {
     .none__ae {
